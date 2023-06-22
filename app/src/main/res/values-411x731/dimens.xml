@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="another_layout" type="layout">@layout/ly_front</item>
+
+    <!--    Linear Layout1 Dimensions -->
+    <dimen name="L_Lay_1_padd_hor">15dp</dimen>
+    <dimen name="L_Lay_1_padd_ver">15dp</dimen>
+    <dimen name="L_Lay_1_weight_sum">100</dimen>
+    <dimen name="list_icon_weight">8</dimen>
+    <dimen name="logo_text_size">30sp</dimen>
+    <dimen name="logo_weight">94</dimen>
+
+
+    <!--    Frame Layout two -->
+    <dimen name="fr_lay_2_height">290dp</dimen>
+    <dimen name="fr_lay_2_radu">20dp</dimen>
+    <dimen name="constr_lay_2_padd">20dp</dimen>
+    <dimen name="fr_lay_2_marg">25dp</dimen>
+    <dimen name="TV1_text_size">20sp</dimen>
+    <dimen name="TV2_text_size">18sp</dimen>
+    <dimen name="TV2_marg_top">18dp</dimen>
+    <dimen name="TV3_text_size">15sp</dimen>
+    <dimen name="TV3_marg_top">18dp</dimen>
+
+
+    <!--    Linear Layout2 Dimensions -->
+    <dimen name="L_Lay_2_height">300dp</dimen>
+    <dimen name="L_Lay_2_padd_hor">25dp</dimen>
+    <dimen name="L_Lay_2_padd_top">20dp</dimen>
+    <dimen name="logo2_text_size">33sp</dimen>
+    <dimen name="TV4_text_size">18sp</dimen>
+    <dimen name="TV4_marg_top">10dp</dimen>
+    <dimen name="btn_1_marg_top">28dp</dimen>
+    <dimen name="btn_1_padd_hor">20dp</dimen>
+    <dimen name="btn_1_padd_ver">10dp</dimen>
+    <dimen name="btn_1_text_size">16sp</dimen>
+    <dimen name="btn_2_marg_top">8dp</dimen>
+    <dimen name="btn_2_padd_hor">20dp</dimen>
+    <dimen name="btn_2_padd_ver">10dp</dimen>
+    <dimen name="btn_2_text_size">16sp</dimen>
+
+
+    <!--    Linear Layout3 Dimensions-->
+    <dimen name="L_Lay_3_height">25dp</dimen>
+    <dimen name="L_Lay_3_marg_top">5dp</dimen>
+
+</resources>

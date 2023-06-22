@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Alsirat</string>
+    <string name="main_title" translatable="false">الصراط</string>
+    <string name="AC1_text_1" translatable="false">روي عن رسول الله (صلى الله عليه وآله) انه قال:</string>
+    <string name="AC1_text_2" translatable="false">من حفظ على أمتي أربعين حديثا ينتفعون بها في أمر دينهم، بعثه الله يوم القيامة فقيها عالما.</string>
+    <string name="AC1_text_3" translatable="false">المصدر: ميزان الحكمة - ج1</string>
+    <string name="AC1_text_4" translatable="false">شبكة اسلامية تعنى بنشر حديث اهل البيت (صلوات الله وسلامه عليهم اجمعين).</string>
+    <string name="AC1_text_5" translatable="false">تصفح اخر الاحاديث المرفوعة</string>
+    <string name="AC1_text_6" translatable="false">انشر حديثا شريفا</string>
+    <string name="AC1_text_7" translatable="false">جميع الحقوق محفوظة @ </string>
+    <string name="Ac1_text_8" translatable="false">Ali Hussein</string>
+</resources>

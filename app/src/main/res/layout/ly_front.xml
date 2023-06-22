@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Front"
+    android:background="@color/color_2">
+
+<!--    The nav bar-->
+    <LinearLayout
+        android:id="@+id/L_Lay_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/L_Lay_1_padd_hor"
+        android:paddingVertical="@dimen/L_Lay_1_padd_ver"
+        android:paddingTop="0dp"
+        android:weightSum="@dimen/L_Lay_1_weight_sum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/logo_weight"
+            android:fontFamily="@font/cairo_bold"
+            android:gravity="right"
+            android:text="الصراط"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/logo_text_size" />
+
+        <ImageButton
+            android:id="@+id/list_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/list_icon_weight"
+            android:background="@drawable/icon_btn_list" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fr_lay_2"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/front_background_1"
+        app:layout_constraintCircleRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/L_Lay_1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constr_lay_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/constr_lay_2_padd">
+
+            <TextView
+                android:id="@+id/TV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/AC1_text_1"
+                android:textColor="@color/color_1"
+                android:textSize="@dimen/TV1_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/TV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/cairo_medium"
+                android:text="@string/AC1_text_2"
+                android:textColor="@color/color_1"
+                android:textSize="@dimen/TV2_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TV1" />
+
+            <TextView
+                android:id="@+id/TV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/cairo_medium"
+                android:text="@string/AC1_text_3"
+                android:textColor="@color/color_1"
+                android:textSize="@dimen/TV3_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TV2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/L_Lay_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/L_Lay_2_height"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/L_Lay_2_padd_hor"
+        android:paddingTop="@dimen/L_Lay_2_padd_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fr_lay_2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/Logo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/cairo_bold"
+            android:gravity="right"
+            android:text="الصراط"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/logo2_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TV4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/TV4_marg_top"
+            android:fontFamily="@font/cairo_medium"
+            android:text="@string/AC1_text_4"
+            android:textColor="@color/color_1"
+            android:textSize="@dimen/TV4_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Logo2" />
+
+        <TextView
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_1_marg_top"
+            android:background="@drawable/front_background_bt"
+            android:clickable="true"
+            android:fontFamily="@font/cairo_medium"
+            android:paddingHorizontal="@dimen/btn_1_padd_hor"
+            android:paddingVertical="@dimen/btn_1_padd_ver"
+            android:text="@string/AC1_text_5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_1_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TV4" />
+
+        <TextView
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_2_marg_top"
+            android:background="@drawable/front_background_bt"
+            android:clickable="true"
+            android:fontFamily="@font/cairo_medium"
+            android:paddingHorizontal="@dimen/btn_2_padd_hor"
+            android:paddingVertical="@dimen/btn_2_padd_ver"
+            android:text="@string/AC1_text_6"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_2_text_size"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L_Lay_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/L_Lay_3_height"
+        android:layout_marginTop="@dimen/L_Lay_3_marg_top"
+        android:background="@color/color_1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/L_Lay_2"
+        app:layout_constraintVertical_bias="0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
